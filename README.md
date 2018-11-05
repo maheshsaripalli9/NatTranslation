@@ -3,32 +3,18 @@
 
 ```
 Read the NAT file line by line:
-
-
   Store first pair Ip in FirstIp Vector
-  
-  
-  store first pair port in FirstPort vector
-  
-  
+  store first pair port in FirstPort vector  
   store second pair in SecondPair Vector
   
-  
-  
 Read the FLOW file line by line: Open Output file with write operation:
-
-
   If  IP is equal to any of FirstIp vector strings or *:
-  
-  
     If port is also equal to corresponding IP Port or *:
-    
-    
       Write the corresponding NAT.
   If no matches:
     return No matches.
-    ```
     
+```    
     
 If I had more time:
         i would optimized the code using the split function by deliemeter instead of using substr.
