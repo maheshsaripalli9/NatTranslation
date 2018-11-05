@@ -1,15 +1,29 @@
 # NatTranslation
+<p4> PsuedoCode: </p4> 
 
-PsuedoCode:
 
 Read the NAT file line by line:
+
+
   Store first pair Ip in FirstIp Vector
+  
+  
   store first pair port in FirstPort vector
+  
+  
   store second pair in SecondPair Vector
   
+  
+  
 Read the FLOW file line by line: Open Output file with write operation:
+
+
   If  IP is equal to any of FirstIp vector strings or *:
+  
+  
     If port is also equal to corresponding IP Port or *:
+    
+    
       Write the corresponding NAT.
   If no matches:
     return No matches.
