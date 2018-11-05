@@ -1,7 +1,7 @@
 # NatTranslation
 <p4> PsuedoCode: </p4> 
 
-
+```
 Read the NAT file line by line:
 
 
@@ -27,6 +27,7 @@ Read the FLOW file line by line: Open Output file with write operation:
       Write the corresponding NAT.
   If no matches:
     return No matches.
+    ```
     
     
 If I had more time:
